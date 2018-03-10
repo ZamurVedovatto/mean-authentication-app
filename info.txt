@@ -1,0 +1,6 @@
+usando mongo (cmd adm)
+	mongo.exe
+	show dbs
+	use meanauth
+	show collections
+	db.users.find().pretty()
