@@ -1,4 +1,4 @@
-usando mongo (cmd adm)
+usando dbs com mongo (cmd adm)
 	mongo.exe
 	show dbs
 	use meanauth
