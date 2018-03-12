@@ -4,3 +4,9 @@ usando dbs com mongo (cmd adm)
 	use meanauth
 	show collections
 	db.users.find().pretty()
+	db.users.remove({"name" : "Tche Cabeção"})
+	db.test_users.remove({"_id": ObjectId("4d512b45cc9374271b02ec4f")})
+
+ao final do desenvolvimento
+	make sure that you have changed the "outDir": "../public" in ".angular-cli.json"
+	ng build
